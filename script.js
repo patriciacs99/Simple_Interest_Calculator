@@ -13,9 +13,12 @@ function compute()
         principal.focus();
         return false;
     }
+
+    //Show Interest Calculation
     document.getElementById("result").innerHTML="If you deposit "+"<span class=\"highlights\">"+principal+"</span>"+",\<br\>at an interest rate of "+"<span class=\"highlights\">"+rate+"</span>"+"%\<br\>You will receive an amount of "+"<span class=\"highlights\">"+interest+"</span>"+",\<br\>in the year "+"<span class=\"highlights\">"+year+"</span>"+"\<br\>"
    
 }   
+// Update the range input value
 function updateRate() 
 {
     var rateval = document.getElementById("rate").value;
