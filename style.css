@@ -16,7 +16,7 @@ h1{
     align:center
 }
 .contents{
-    padding: 5px;
+    padding: 25px;
     margin-bottom:30px;
 }
 
@@ -24,3 +24,6 @@ tr,td{
     padding:5px;
 }
 
+.highlights{
+    background-color: yellow;
+}
